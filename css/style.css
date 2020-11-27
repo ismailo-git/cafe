@@ -1,0 +1,208 @@
+/*=========RESET=========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*========GENERAL===========*/
+
+h1,h2,h3 {
+
+    margin-bottom: 20px;
+}
+p {
+
+    margin-bottom: 10px;
+}
+a {
+
+    text-decoration: none;
+    color: #222;
+}
+
+img {
+
+    width: 100%;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+body {
+
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.container {
+
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    
+    
+}
+.my-10 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*========HEADER ==========*/
+
+.header {
+
+    background: #2d3436;
+    overflow: auto;
+    line-height: 1.2em;
+}
+
+.header nav h2 {
+
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.header nav h2 a {
+
+    color: #fff;
+}
+.header nav ul {
+
+    float: right;
+}
+
+.header nav ul li {
+
+    float: left;
+}
+
+.header nav ul li a {
+
+    color: #fff;
+    
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover {
+
+    background: #444;
+}
+/*==========Start BANNER =========*/
+
+.banner {
+
+    background: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 170px;
+    text-align: center;
+}
+
+.banner .content h1 {
+
+    color: #fff;
+    font-size: 3rem;
+}
+.banner .content .separator {
+
+    width: 100px;
+    margin: 20px auto;
+    padding: 4px;
+    background-color: #000;
+}
+.banner .content p {
+
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+    
+}
+
+.banner .content .btn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    color: #222;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*========== Section Features ======== */
+
+.features {
+
+    overflow: hidden;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    
+}
+
+.features .feature {
+
+    float: left;
+    width: 50%;
+}
+
+.features .feature p {
+
+    max-width: 400px;
+    margin: auto;
+}
+
+/*======= SECTION image ==========*/
+
+.image {
+
+    height: 400px;
+    background-image: url(../images/kyle.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Reservation */
+
+.reservation {
+
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.reservation .btn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.footer {
+
+    background: #2d3436;
+    padding: 50px 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .p-footer {
+    margin-bottom: 0;
+}
